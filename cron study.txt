@@ -1,0 +1,18 @@
+CRONTAB
+=======
+
+
+Cron tables 
+
+1=mintue (0-59)
+2 hour (24 hour format, 0-23)
+3=day of month (1-31)
+4 =month of year (1-12)
+5=day of week (0-6 or 7=sunday,1-6=mon-sat)  
+
+
+
+cron correct checking 
+======================
+https://crontab.guru/#*/5_*_*_* 
+

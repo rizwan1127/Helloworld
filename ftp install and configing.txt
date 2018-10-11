@@ -1,0 +1,17 @@
+Install and Configure vsftpd on Ubuntu
+======================================
+
+Steps :
+ 
+apt-get update 
+apt-get install vsftpd 
+vim /etc/vsftpd.conf 
+anonymous_enable=no 
+local_enable=no .....................
+write_enable=yes 
+chroot_local_user=YES ................
+service vsftpd restart
+chmod a-w /home/user2/================================don't use this command 
+mkdir /home/user2/files
+chown user2:user2 /home/user2/files/
+

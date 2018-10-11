@@ -1,0 +1,28 @@
+	                               MYSQL Admin
+                                      =============
+
+mysqladmin -u root -p ping =============== this cmd use to check mysql working or not
+ 
+mysqlamdin -u root -p status ============= status checking
+
+mysqladmin -u root -p  version =========== status checking
+ 
+mysqladmin -u root -p extended-status ==== mysql server all variables and values checking cmd
+ 
+mysqladmin -u root -p variables ========= mysql variables checking cmd
+ 
+mysqladmin -u root -p prcoesslist ======= mysql all runing process
+ 
+mysqladmin -u root -p create test_db===== create databases in mysql 
+to check database cmd ===show databases;
+
+mysqladmin -u root -p drop test_dp ====== cmd used to del database
+
+mysqladmin -u root -p refresh ========== cmd used to refresh the mysql server 
+
+mysqladmin -u root -p processlist status version ==========cmd use to multiple cmd using 
+
+mysqladmin -u root -poldpassword password 'newpassword'=======mysql server passwprd changing cmd 
+
+mysqladmin -u root -p shutdown ========== for safe power off 
+  
